@@ -3,6 +3,23 @@ body {
     flex-direction: column ;
 }
 
-.header {
-    
+.header,
+.footer,
+.introduction {
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+}
+
+.header{
+    justify-content: space-around;
+}
+
+.links ul {
+    display: flex;
+    gap: 15px;
+}
+
+ul {
+    list-style-type: none;
 }
